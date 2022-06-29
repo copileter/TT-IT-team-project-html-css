@@ -1,2 +1,13 @@
-@import './common';
-@import './example';
+// добавляет стили сброса марджинов, декорацию ссылок, др
+@import './base/reset';
+
+// добавляет общие стили, такие как visually-hidden, кнопки, контейнеры, др.
+@import './utils/common';
+
+// добавляет миксины
+@import './utils/mixins';
+
+// добавляет переменные
+@import './utils/variables';
+
+// ниже подключаем стили компонентов (секций). файлы размещаем в components.

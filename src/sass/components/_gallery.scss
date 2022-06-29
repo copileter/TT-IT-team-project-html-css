@@ -1,0 +1,19 @@
+.gallery__container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 245, 246, 1) 40%,
+    rgba(255, 255, 255, 1) 40%
+  );
+  // outline: 1px solid red;
+}
+
+.gallery__img {
+  display: block;
+  width: 100%;
+  // opacity: 0.3;
+}

@@ -8,9 +8,6 @@
 @import './utils/common';
 
 // добавляет миксины
-@import './utils/mixins';
-
-// добавляет переменные
-@import './utils/variables';
+@import './utils/placeholders';
 
 // ниже подключаем стили компонентов (секций). файлы размещаем в components.

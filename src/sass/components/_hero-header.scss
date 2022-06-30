@@ -4,21 +4,21 @@
 }
 .container--header {
   display: flex;
-  justify-content: space-between;
 }
 .logo-icon {
   display: block;
 }
 .menu-button {
-  position: absolute;
+  margin-left: auto;
   z-index: 2;
-  top: 20px;
-  right: 20px;
-
   padding: 0;
   background-color: transparent;
   border: transparent;
   cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    margin-right: 32px;
+  }
 }
 .close-icon {
   display: none;
@@ -76,6 +76,7 @@
   }
 }
 .invisible {
+  margin-bottom: 0;
   @media screen and (max-width: 767px) {
     display: none;
   }
